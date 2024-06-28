@@ -31,22 +31,13 @@ int main() {
 	}
 
 	//–Â‚«º‚Ìo—Í
-	for (int i = 0; i < 3; i++) {
-		if (i == 1) {
-			animal_[i]->cry();
-		}
-		if (i == 0) {
-			animal_[i]->cry();
-		}
+	for (int i = 0; i < 2; i++) {
+		animal_[i]->cry();
 	}
 
 	//”jŠü
 	for (int i = 0; i < 2; i++) {
-		if (i == 1) {
-			delete animal_[i];
-		}if (i == 0) {
-			delete animal_[i];
-		}
+		delete animal_[i];
 	}
 
 	return 0;
